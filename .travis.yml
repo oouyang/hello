@@ -1,0 +1,12 @@
+language: c
+
+compiler:
+  - gcc
+
+before_install:
+
+script:
+  - make && ./hello
+
+after_success:
+
