@@ -11,8 +11,8 @@ script:
 after_success:
 
 addons:
+  artifacts: true
   s3_region: "ap-northeast-1c"
-  artifacts:
   paths:
     - hello
     - $(ls *.o | tr "\n" ":")
