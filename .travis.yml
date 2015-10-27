@@ -12,7 +12,7 @@ after_success:
 
 addons:
   artifacts: true
-  s3_region: "ap-northeast-1c"
+  s3_region: "ap-northeast-1"
   paths:
     - hello
     - $(ls *.o | tr "\n" ":")
