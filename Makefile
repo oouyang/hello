@@ -4,11 +4,11 @@ OBJS=hello.o
 all: hello
 
 hello: hello.o
-	$(CC) -o $@ $(LDFLAGS) $(OBJS) -fprofile-arcs
+	$(CC) -o $@ $(LDFLAGS) $(OBJS)
 
 %.o: %.c
-	$(CC) -c -o $@ $< $(CFLAGS) -fprofile-arcs -ftest-coverage
+	$(CC) -c -o $@ $< $(CFLAGS)
 
 clean:
-	rm -f *.gcov *.gcno *.gcda *.o hello
+	rm -f *.o hello
 
