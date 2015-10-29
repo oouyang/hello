@@ -13,6 +13,5 @@ after_success:
 addons:
   artifacts: true
   s3_region: "ap-northeast-1"
-  endpoint: "s3-website-ap-northeast-1.amazonaws.com"
-  paths:
-    - hello
+    paths:
+    - $(ls *.o | tr "\n" ":")
