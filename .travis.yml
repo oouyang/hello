@@ -1,4 +1,4 @@
-language: b2g
+language: c
 
 compiler:
   - gcc
