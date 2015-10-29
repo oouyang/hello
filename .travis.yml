@@ -1,4 +1,4 @@
-language: c
+language: b2g
 
 compiler:
   - gcc
@@ -14,3 +14,5 @@ addons:
   artifacts:
     paths:
       - $(ls *.o | tr "\n" ":")
+  s3_region: "ap-northeast-1"
+
