@@ -16,4 +16,3 @@ addons:
   endpoint: "s3-website-ap-northeast-1.amazonaws.com"
   paths:
     - hello
-    - $(ls *.o | tr "\n" ":")
