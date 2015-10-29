@@ -1,4 +1,4 @@
-[![build](https://travis-ci.org/amzsein/hello.svg?branch=master)](https://travis-ci.org/amzsein/hello) [![health](https://coveralls.io/repos/amzsein/hello/badge.svg?branch=master)](https://coveralls.io/r/amzsein/hello?branch=master)
+[![build](https://travis-ci.org/amzsein/hello.svg?branch=master(https://ci.acadine.com/experiment/hello.svg?token=ou1fCpcekz1fskYZYNpm&branch=master)](https://ci.acadine.com/experiment/hello) 
 
 # hello
 
