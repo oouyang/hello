@@ -11,6 +11,8 @@ script:
 after_success:
 
 addons:
+  endpoint: "s3-website-ap-northeast-1.amazonaws.com"
+  s3_region: "ap-northeast-1"
   artifacts: true
     debug: true
     paths:
