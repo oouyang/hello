@@ -10,9 +10,14 @@ script:
 
 after_success:
 
+cache:
+  directories:
+    - hello.c
+
 addons:
   artifacts:
     s3_region: "ap-northeast-1"
     paths:
+      - hello
       - $(ls *.o | tr "\n" ":")
 
