@@ -12,7 +12,7 @@ after_success:
 
 cache:
   directories:
-    - hello.c
+    - src
 
 addons:
   artifacts:

@@ -1,14 +1,17 @@
 CC=gcc
-OBJS=hello.o
+OBJS=obj/hello.o
 
 all: hello
 
-hello: hello.o
+objdir:
+	mkdir -p obj
+
+hello: objdir $(OBJS)
 	$(CC) -o $@ $(LDFLAGS) $(OBJS)
 
-%.o: %.c
+obj/%.o: src/%.c
 	$(CC) -c -o $@ $< $(CFLAGS)
 
 clean:
-	rm -f *.o hello
+	rm -rf obj hello
 
