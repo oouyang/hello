@@ -25,4 +25,5 @@ notifications:
   email:
     recipients:
       - seinlin.li@acadine.com
-    on_success: always 
+    on_success: always
+    on_failure: always
