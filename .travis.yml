@@ -23,4 +23,6 @@ addons:
 
 notifications:
   email:
+    recipients:
+      - seinlin.li@acadine.com
     on_success: always 
