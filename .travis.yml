@@ -21,3 +21,6 @@ addons:
       - hello
       - $(ls *.o | tr "\n" ":")
 
+notifications:
+  email:
+    on_success: always 
