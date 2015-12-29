@@ -22,4 +22,6 @@ addons:
       - $(ls *.o | tr "\n" ":")
 
 notifications:
-  email: true
+  email:
+		recipients:
+    	- seinlin.li@acadine.com
