@@ -23,5 +23,5 @@ addons:
 
 notifications:
   email:
-		recipients:
-    	- seinlin.li@acadine.com
+    recipients:
+      - seinlin.li@acadine.com
