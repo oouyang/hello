@@ -6,9 +6,11 @@ compiler:
 before_install:
 
 script:
+  - echo 'build scripts'
   - make
 
 after_success:
+  - echo 'after scripts'
 
 cache:
   directories:
