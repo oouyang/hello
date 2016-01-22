@@ -4,6 +4,7 @@ compiler:
   - gcc
 
 before_install:
+  - echo 'before scripts'
 
 script:
   - echo 'build scripts'
