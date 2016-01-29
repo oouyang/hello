@@ -27,4 +27,5 @@ addons:
 notifications:
   email:
     recipients:
-      - seinlin.li@acadine.com
+      - owen.ouyang@acadine.com
+    on_success: always
